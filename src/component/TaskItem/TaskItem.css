@@ -1,0 +1,51 @@
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+  gap: 10px;
+}
+
+.task input[type="checkbox"] {
+  appearance: none; 
+  width: 18px;
+  height: 18px;
+  border: 2px solid #f4f4f5; 
+  border-radius: 3px; 
+  background: white; 
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  margin-right: 10px;
+}
+
+/* 勾選時的樣式 */
+.task input[type="checkbox"]:checked {
+  background: #6AA3CF; /* 勾選時背景色 */
+  border-color: #4c81af; /* 勾選時邊框顏色 */
+}
+
+/* 勾選標記樣式 */
+.task input[type="checkbox"]:checked::after {
+  content: ""; 
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+  transition: all 0.3s;
+}
+
+.task.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.task button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}

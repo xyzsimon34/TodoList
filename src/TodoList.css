@@ -1,0 +1,28 @@
+/* Todo List 主容器 */
+.todo-list {
+  width: 300px;
+  margin: 20px auto;
+  background: linear-gradient(to bottom, #EFF6FF, #ECEDFF);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  color: #000000;
+  font-weight: 300;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  color: #ccc;
+}
+
+
+
+
+
