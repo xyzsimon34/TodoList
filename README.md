@@ -20,4 +20,16 @@
 1. 克隆此資料庫：
    ```bash
    git clone https://github.com/xyzsimon34/TodoList.git
+
+2. 進入專案資料夾：
+   ```bash
+   cd TodoList
+
+3. 安裝依賴：
+   ```bash
+   npm install
+
+4. 啟動應用程式
+   ```bash
+   npm start
    
